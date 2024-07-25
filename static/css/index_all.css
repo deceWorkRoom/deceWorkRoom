@@ -376,7 +376,37 @@ p {
     line-height: 1.6;
 }
 
+.Lcard {
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    opacity: 0;
+    animation: fade-in 1s forwards;
+    transition: transform 0.3s ease;
+}
 
+.Lcard:hover {
+  transform: translateY(-5px);
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.Ltitle {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Ldescription {
+    font-size: 1em;
+    color: #555;
+}
 
 footer {
     background-color: #333;

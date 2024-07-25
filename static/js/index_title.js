@@ -2,9 +2,9 @@
 document.addEventListener('visibilitychange', function() {
     if (document.visibilityState === 'hidden') {
     // 更换网页标题
-        document.title = '欢迎加入我们-deqecraft官网';
+        document.title = '欢迎加入我们-dece官网';
      } else {
     // 恢复原始网页标题
-        document.title = '新春快乐-deqecraft官网';
+        document.title = 'dece官网';
       }
     });
